@@ -4,7 +4,7 @@ Script to understand scheduler strategy
 
 Script takes perf.data file generated using the commandline.
 
-#perf record -e sched:sched_switch -a sleep 5
+  perf record -e sched:sched_switch -a sleep 5
 
 Use sched_switch to underistand the task affinity and scheduling trends
 
@@ -27,4 +27,4 @@ post processing perf.data file
 
 Usage: 
 
-# sudo perf script -i <path to perf.data> -s ./sched-strategy-script.py
+ sudo perf script -i <path to perf.data> -s ./sched-strategy-script.py
