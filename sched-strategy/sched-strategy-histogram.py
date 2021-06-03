@@ -1,5 +1,5 @@
 #
-# Script to understand scheduler strategy.
+# Script to understand scheduler strategy with a historgram on how long task ran in a cpu.
 #
 # Madhavan Srinivasan, IBM Corp 2021
 #
