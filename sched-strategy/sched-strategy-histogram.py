@@ -91,7 +91,7 @@ def sched__sched_switch(event_name, context, common_cpu,
             nsecs += int(common_nsecs)
             msecs = int(nsecs/1000000)
         else: 
-            nsecs = int(lnsecs - common_nsecs)
+            nsecs = int(common_nsecs - lnsecs)
             msecs = int(nsecs/1000000)
 
         mindex = int(msecs/5)
