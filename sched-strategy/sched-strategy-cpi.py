@@ -8,7 +8,7 @@
 #   #sudo perf record -e sched:sched_switch -a sleep 5
 #
 # Script Uages:
-#   #sudo perf stat -e "{r500fa,r600f4}" -a sleep 200&
+#   #sudo perf stat -e "{r1001e,r20002}" -a sleep 200&
 #   #sudo perf record -e sched:sched_switch -a sleep 5
 #   #sudo perf script -i <path to perf.data file> -s ./sched-strategy-script.py
 #
