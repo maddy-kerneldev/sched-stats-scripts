@@ -48,8 +48,6 @@ def sched__sched_switch(event_name, context, common_cpu,
 
     if (pid in pid_dis):
         if (tid in pid_dis[pid]):
-            if(pid_dis[pid][tid]['nsec'] == common_nsecs):
-                return
             pid_dis[pid][tid]['disp'] += 1
             if (pid_dis[pid][tid]['cpu'] == common_cpu):
                 pid_dis[pid][tid]['affin'] += 1
